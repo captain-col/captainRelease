@@ -1,0 +1,10 @@
+package captainRelease
+
+# This is the container package for the captain software.  It defines which
+# packages packages should be used.  All of the versions should be
+# explicitly given, and if a frozen version is not provided, "master"
+# should be used it place of the version number.
+#
+# In all other packages, the used package version should not be specified.
+
+use captainPolicy master
