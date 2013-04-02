@@ -8,3 +8,4 @@ package captainRelease
 # In all other packages, the used package version should not be specified.
 
 use captainPolicy master
+use testBase master
