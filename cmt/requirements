@@ -9,3 +9,6 @@ package captainRelease
 
 use captainPolicy master
 use testBase master
+use captEvent master
+use eventDisplay master
+use detSim master
