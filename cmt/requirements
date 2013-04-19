@@ -13,3 +13,7 @@ use captEvent master
 use captChanInfo master
 use eventDisplay master
 use detSim master
+use elecSim master
+
+# Build methods to include.
+document doxygen doxygen -group=documentation ../doc/*.dox

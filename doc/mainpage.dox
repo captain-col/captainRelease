@@ -1,0 +1,63 @@
+/*! \mainpage The CAPTAIN Software Reference Manual
+     
+
+\section frameworkPackages Framework Packages
+
+These packages provide the low-level framework for software, such 
+as handling I/O and interfacing the databases.  Most other packages depend
+on these framework packages.
+
+\ref captEvent -- The main I/O library for CAPTAIN.
+       This defines the event format and is required by any package that
+       expects to read or write events.  This library is intended to remain
+       small and stable.  
+
+\ref captRawEvent -- This library provides access the raw data
+       structures written out by the DAQ.  It is used to translate the DAQ
+       data ionto the off-line format.
+
+\ref testBase -- A package of tools for testing software.  This
+       contains the tut (Testing Using Templates) tools, and the
+       nd280-validate script used to run the package validation scripts
+       found in the validate.d directory.
+
+\ref eventDisplay -- The event display is closely tied to the event
+       format, and is intended to display all objects that can be stored in
+       the \ref captEvent data format.
+
+\section simulationPackages Simulation Packages
+
+These packages provide the simulation of the detector.  These are the 
+programs that will probably be of most interest to the first-time user.
+
+\ref detSim -- The detector simulation.  The particle transport is
+       done using geant 4 and it has a (relatively) flexible geometry that
+       can be changed at run time.  This only simulates the energy as it is
+       deposited in the detector.  It does not simulate the electronics
+       response (see \ref elecSim).
+
+\ref elecSim -- This handles the response, digitization and
+       electronics simulation.  It contains several classes that simulate
+       different types of electronics.  This takes care turning raw MC
+       "hits" into digitized electronics output which represent
+       *uncalibrated* detector hits.
+     
+\section databasePackages Database Packages
+
+These packages provide various interface to databases.
+
+\ref captChanInfo -- Provides methods to translate between
+        electronics channels and detector geometry objects.
+
+\section calibration_packages Calibration Packages
+
+These packages provide the low level data processing and calibration algorithms
+for data analysis.  We really should have some...
+
+
+\section reconPackages Reconstruction Packages
+
+These packages provide reconstruction algorithms for the detector.  We
+really should have some.
+
+*/
