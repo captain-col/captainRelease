@@ -46,14 +46,21 @@ programs that will probably be of most interest to the first-time user.
 
 These packages provide various interface to databases.
 
+\ref captDBI -- Defines the data base interface routines.  This derived
+       from the MINOS DBI with a few additions made while it was used at
+       T2K (many of the authors of the original minosDBI library are also
+       T2K authors).  This is used to access the calibration constant
+       database.  
+
 \ref captChanInfo -- Provides methods to translate between
         electronics channels and detector geometry objects.
 
 \section calibration_packages Calibration Packages
 
-These packages provide the low level data processing and calibration algorithms
-for data analysis.  We really should have some...
-
+These packages provide the low level data processing and calibration
+algorithms for data analysis.  These packages apply the calibration
+constants stored in the databasePackages to the off-line data stream.  We
+really should have some.
 
 \section reconPackages Reconstruction Packages
 
