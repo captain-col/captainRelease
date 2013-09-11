@@ -62,9 +62,15 @@ algorithms for data analysis.  These packages apply the calibration
 constants stored in the databasePackages to the off-line data stream.  We
 really should have some.
 
+\ref clusterCalib -- Translates digits (low level hit information) into
+calibrated 2D hits.  The hit times are calibrated and position is assigned
+to a CP::TGeometryId value.  These are ready for use in the reconstruction. 
+
 \section reconPackages Reconstruction Packages
 
 These packages provide reconstruction algorithms for the detector.  We
 really should have some.
+
+\ref captRecon -- The event reconstruction algorithms.
 
 */
