@@ -12,6 +12,13 @@ on these framework packages.
        expects to read or write events.  This library is intended to remain
        small and stable.  
 
+\ref captControl -- The main job control and configuration library for
+       CAPTAIN. This provides a set of bash functions to make running
+       CAPTAIN jobs a cinch.  It is useful for everyday CAPTAIN work, but
+       is aimed at batch processing.  Functions are provided for standard
+       configuration options, and most operations can be done by calling a
+       single function.
+
 \ref captRawEvent -- This library provides access the raw data
        structures written out by the DAQ.  It is used to translate the DAQ
        data ionto the off-line format.

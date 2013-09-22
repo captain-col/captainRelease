@@ -10,6 +10,7 @@ package captainRelease
 use captainPolicy master
 use testBase master
 use captEvent master
+use captControl master 
 use captDBI master
 use captChanInfo master
 use eventDisplay master
