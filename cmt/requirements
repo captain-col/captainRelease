@@ -19,6 +19,7 @@ use detSim master
 use elecSim master
 use clusterCalib master
 use captRecon master
+use captSummary master
 
 # Build methods to include.
 document doxygen doxygen -group=documentation ../doc/*.dox
