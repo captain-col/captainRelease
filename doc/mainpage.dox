@@ -32,6 +32,10 @@ on these framework packages.
        format, and is intended to display all objects that can be stored in
        the \ref captEvent data format.
 
+\ref captSummary -- A package so summarize the captEvent file into a
+       smaller DST (data summary tree) for physics analysis.  This package
+       generates files that are (best) analyzed using the captDST package.
+
 \section simulationPackages Simulation Packages
 
 These packages provide the simulation of the detector.  These are the 
