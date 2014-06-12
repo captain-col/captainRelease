@@ -1,6 +1,17 @@
 /*! \mainpage The CAPTAIN Software Reference Manual
      
 
+\section analysisPackages Analysis Packages
+
+These packages provide the high level frame work for doing physics
+analysis, and are designed to minimize the dependencies on the rest of the
+software.  
+
+\ref captDST -- A physics analysis package designed to simplify access to
+       DSTs prepared by the \ref captSummary package.  This package is
+       optimized for doing analysis using ROOT ".C" macros.  It uses ROOT,
+       but doesn't require the CAPTAIN version of ROOT to be installed. 
+
 \section frameworkPackages Framework Packages
 
 These packages provide the low-level framework for software, such 

@@ -7,6 +7,7 @@ package captainRelease
 #
 # In all other packages, the used package version should not be specified.
 
+use captDST
 use captainPolicy master
 use testBase master
 use captEvent master
