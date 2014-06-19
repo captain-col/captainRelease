@@ -11,6 +11,7 @@ use captDST
 use captainPolicy master
 use testBase master
 use captEvent master
+use captTrans master
 use captControl master 
 use captDBI master
 use captChanInfo master
