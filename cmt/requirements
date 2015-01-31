@@ -7,15 +7,15 @@ package captainRelease
 #
 # In all other packages, the used package version should not be specified.
 
-use captainPolicy master
-use testBase master
-use captEvent master
-use captTrans master
+use captainPolicy 1.1.0
+use testBase 1.0.0
+use captEvent 1.0.0
+use captTrans 0.0.0
+use captDBI 0.0.0
+use calibTables 0.0.0
+use captChanInfo 0.0.0
+use eventDisplay 0.0.0
 use captControl master 
-use captDBI master
-use calibTables master
-use captChanInfo master
-use eventDisplay master
 use captainGENIE master
 use detSim master
 use elecSim master
