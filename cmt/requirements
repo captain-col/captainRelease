@@ -7,7 +7,6 @@ package captainRelease
 #
 # In all other packages, the used package version should not be specified.
 
-use captDST master
 use captainPolicy master
 use testBase master
 use captEvent master
@@ -23,6 +22,7 @@ use elecSim master
 use clusterCalib master
 use captRecon master
 use captSummary master
+use captDST master
 
 # Build methods to include.
 document doxygen doxygen -group=documentation ../doc/*.dox
