@@ -37,7 +37,7 @@ use captRecon master
 # The physics, detector and electronics simulations
 use detSim 0.0.0
 use elecSim 0.0.0
-use captainGENIE master
+use captainGENIE 0.0.0
 
 # The high level data processing packages.
 use captSummary master
