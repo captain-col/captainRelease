@@ -10,4 +10,19 @@ Freeze information:
 
 The first freeze of the captainRelease package.
 
+
+\section captainRelease_v0r0p1_history Version 0.0.1
+
+Freeze information:
+   - Freeze Date: Mon Feb  2 20:22:14 2015
+   - Freeze User: mcgrew
+   - Freeze Host: boxer 
+
+
+FEATURE CHANGES
+
+The versions of all the packages have been frozen to make this the first
+freeze of the main software.  This freeze does not include the captSummary
+and captDST packages which have not reached any stage of stability. 
+
 */
