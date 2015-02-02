@@ -7,20 +7,41 @@ package captainRelease
 #
 # In all other packages, the used package version should not be specified.
 
+# The basic support packages.  These are packages that define things like
+# the compiler flags, but don't actually do any work.  This includes the
+# packages needed to implement testing, but should not include any specific
+# CAPTAIN testing implementations
 use captainPolicy master
 use testBase master
+
+# The infrastructure packages needed to read and understand the data.
+# These packages concentrate on event handling, but do not do any specific
+# transformations to the events (e.g. no calibration)
 use captEvent master
 use captTrans master
-use captControl master 
 use captDBI master
 use calibTables master
 use captChanInfo master
 use eventDisplay master
-use captainGENIE master
+use captControl master
+
+# The calibration packages.  These packages apply the actual hit
+# calibrations and find the pulses inside of the TPC, PDS or muon
+# telescope.  The pulse finding borders on reconstruction, but is different
+# enough from track reconstruction that it gets called calibration.
+use clusterCalib master
+
+# The TPC reconstruction packages
+use captRecon master
+
+# The physics, detector and electronics simulations
 use detSim master
 use elecSim master
-use clusterCalib master
-use captRecon master
+use captainGENIE master
+
+# The high level data processing packages.  These packages are not ready
+# for a freeze, but are convenient to have available, so they are left at
+# the "master" version.
 use captSummary master
 use captDST master
 
