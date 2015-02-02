@@ -32,14 +32,16 @@ use captControl 0.0.0
 use clusterCalib 0.0.0
 
 # The TPC reconstruction packages
-use captRecon master
+use captRecon 0.0.0
 
 # The physics, detector and electronics simulations
 use detSim 0.0.0
 use elecSim 0.0.0
 use captainGENIE 0.0.0
 
-# The high level data processing packages.
+# The high level data processing packages.  These packages are not ready
+# for a freeze, but are convenient to have available, so they are left at
+# the "master" version.
 use captSummary master
 use captDST master
 
