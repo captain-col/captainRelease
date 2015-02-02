@@ -29,7 +29,7 @@ use captControl 0.0.0
 # calibrations and find the pulses inside of the TPC, PDS or muon
 # telescope.  The pulse finding borders on reconstruction, but is different
 # enough from track reconstruction that it gets called calibration.
-use clusterCalib master
+use clusterCalib 0.0.0
 
 # The TPC reconstruction packages
 use captRecon master
