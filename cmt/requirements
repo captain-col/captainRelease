@@ -47,3 +47,6 @@ use captDST master
 
 # Build methods to include.
 document doxygen doxygen -group=documentation ../doc/*.dox
+
+# Apply a check to warn if a development version is being used.
+setup_script check_version
