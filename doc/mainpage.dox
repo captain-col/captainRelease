@@ -30,9 +30,9 @@ on these framework packages.
        configuration options, and most operations can be done by calling a
        single function.
 
-\ref captRawEvent -- This library provides access the raw data
+\ref captTrans -- This library provides access the raw data
        structures written out by the DAQ.  It is used to translate the DAQ
-       data ionto the off-line format.
+       data into the off-line format.
 
 \ref testBase -- A package of tools for testing software.  This
        contains the tut (Testing Using Templates) tools, and the
