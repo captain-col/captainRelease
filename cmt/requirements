@@ -18,7 +18,7 @@ use testBase 1.0.0
 # These packages concentrate on event handling, but do not do any specific
 # transformations to the events (e.g. no calibration)
 use captEvent 1.0.1
-use captTrans 0.0.0
+use captTrans 0.0.1
 use captDBI 0.0.0
 use calibTables 0.0.0
 use captChanInfo 0.0.0
