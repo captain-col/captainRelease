@@ -11,33 +11,33 @@ package captainRelease
 # the compiler flags, but don't actually do any work.  This includes the
 # packages needed to implement testing, but should not include any specific
 # CAPTAIN testing implementations
-use captainPolicy 1.1.0
-use testBase 1.0.0
+use captainPolicy master
+use testBase master
 
 # The infrastructure packages needed to read and understand the data.
 # These packages concentrate on event handling, but do not do any specific
 # transformations to the events (e.g. no calibration)
-use captEvent 1.0.1
-use captTrans 0.0.1
-use captDBI 0.0.0
-use calibTables 0.0.0
-use captChanInfo 0.0.0
-use eventDisplay 0.0.0
-use captControl 0.0.0
+use captEvent master
+use captTrans master
+use captDBI master
+use calibTables master
+use captChanInfo master
+use eventDisplay master
+use captControl master
 
 # The calibration packages.  These packages apply the actual hit
 # calibrations and find the pulses inside of the TPC, PDS or muon
 # telescope.  The pulse finding borders on reconstruction, but is different
 # enough from track reconstruction that it gets called calibration.
-use clusterCalib 0.0.0
+use clusterCalib master
 
 # The TPC reconstruction packages
-use captRecon 0.0.0
+use captRecon master
 
 # The physics, detector and electronics simulations
-use detSim 0.0.0
-use elecSim 0.0.0
-use captainGENIE 0.0.0
+use detSim master
+use elecSim master
+use captainGENIE master
 
 # The high level data processing packages.  These packages are not ready
 # for a freeze, but are convenient to have available, so they are left at
