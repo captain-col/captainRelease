@@ -25,4 +25,16 @@ The versions of all the packages have been frozen to make this the first
 freeze of the main software.  This freeze does not include the captSummary
 and captDST packages which have not reached any stage of stability. 
 
+
+\section captainRelease_v0r0p2_history Version 0.0.2
+
+Freeze information:
+   - Freeze Date: Fri Apr 10 12:23:14 2015
+   - Freeze User: mcgrew
+   - Freeze Host: boxer boxer 
+
+
+Prepare for a check-point release.  This captures the state of the software
+relatively soon after the first two LAr Cosmic Ray Tests.  
+
 */
