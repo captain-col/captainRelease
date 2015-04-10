@@ -75,18 +75,24 @@ These packages provide various interface to databases.
        database.  
 
 \ref captChanInfo -- Provides methods to translate between
-        electronics channels and detector geometry objects.
+       electronics channels and detector geometry objects.
+
+\ref calibTables -- Defines the database tables which can be accessed using
+       captDBI.
 
 \section calibration_packages Calibration Packages
 
 These packages provide the low level data processing and calibration
 algorithms for data analysis.  These packages apply the calibration
-constants stored in the databasePackages to the off-line data stream.  We
-really should have some.
+constants stored in the databasePackages to the off-line data stream.
 
 \ref clusterCalib -- Translates digits (low level hit information) into
-calibrated 2D hits.  The hit times are calibrated and position is assigned
-to a CP::TGeometryId value.  These are ready for use in the reconstruction. 
+     calibrated 2D hits.  This is done is two steps.  The first is to apply
+     low level calibrations from ADC samples to charges vs time.  The
+     second is to find peaks and to determine the peak time and total
+     charge.  The hit time, charge, and object (i.e. the CP::TGeometryId
+     value) are assigned to a THit.  The resulting hits are ready for use
+     in the reconstruction.
 
 \section reconPackages Reconstruction Packages
 
