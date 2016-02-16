@@ -11,8 +11,8 @@ package captainRelease
 # the compiler flags, but don't actually do any work.  This includes the
 # packages needed to implement testing, but should not include any specific
 # CAPTAIN testing implementations
-use captainPolicy 1.1.0
-use testBase 1.0.0
+use captainPolicy 1.1.1
+use testBase 1.0.1
 
 # The infrastructure packages needed to read and understand the data.
 # These packages concentrate on event handling, but do not do any specific
