@@ -17,7 +17,7 @@ use testBase 1.0.1
 # The infrastructure packages needed to read and understand the data.
 # These packages concentrate on event handling, but do not do any specific
 # transformations to the events (e.g. no calibration)
-use captEvent 1.0.1
+use captEvent 1.1.2
 use captTrans 0.0.1
 use captDBI 0.0.0
 use calibTables 0.0.0
