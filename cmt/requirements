@@ -22,7 +22,7 @@ use captTrans 0.1.0
 use captDBI 0.1.0
 use calibTables 0.0.1
 use captChanInfo 0.1.0
-use eventDisplay 0.0.1
+use eventDisplay 0.0.2
 use captControl 0.0.0
 
 # The calibration packages.  These packages apply the actual hit
