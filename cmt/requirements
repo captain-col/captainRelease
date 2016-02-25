@@ -23,7 +23,7 @@ use captDBI 0.1.0
 use calibTables 0.0.1
 use captChanInfo 0.1.0
 use eventDisplay 0.0.2
-use captControl 0.0.0
+use captControl 0.1.0
 
 # The calibration packages.  These packages apply the actual hit
 # calibrations and find the pulses inside of the TPC, PDS or muon
@@ -35,8 +35,8 @@ use clusterCalib 0.1.0
 use captRecon 0.0.0
 
 # The physics, detector and electronics simulations
-use detSim 0.0.1
-use elecSim 0.1.0
+use detSim 0.1.0
+use elecSim 0.2.0
 use captainGENIE 0.0.1
 
 # The high level data processing packages.  These packages are not ready
