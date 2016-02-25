@@ -32,7 +32,7 @@ use captControl 0.1.0
 use clusterCalib 0.2.0
 
 # The TPC reconstruction packages
-use captRecon 0.0.0
+use captRecon 0.1.0
 
 # The physics, detector and electronics simulations
 use detSim 0.1.0
