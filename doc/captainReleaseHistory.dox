@@ -37,4 +37,17 @@ Freeze information:
 Prepare for a check-point release.  This captures the state of the software
 relatively soon after the first two LAr Cosmic Ray Tests.  
 
+
+\section captainRelease_v0r0p3_history Version 0.0.3
+
+Freeze information:
+   - Freeze Date: Thu Feb 25 14:46:34 2016
+   - Freeze User: mcgrew
+   - Freeze Host: boxer boxer 
+
+
+Prepare a new version to start production for the WNR neutron runs.  This
+includes many updates from the last freeze, and is the first freeze since
+having real data.
+
 */
