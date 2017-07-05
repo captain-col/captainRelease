@@ -23,6 +23,7 @@ use captDBI master
 use calibTables master
 use captChanInfo master
 use eventDisplay master
+use eventShow master
 use captControl master
 
 # The calibration packages.  These packages apply the actual hit
