@@ -37,7 +37,7 @@ use captRecon master
 # The physics, detector and electronics simulations
 use detSim master
 use elecSim master
-use captainGENIE master
+# use captainGENIE master
 
 # The high level data processing packages.  These packages are not ready
 # for a freeze, but are convenient to have available, so they are left at
