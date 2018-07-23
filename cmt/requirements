@@ -43,8 +43,8 @@ use elecSim master
 # The high level data processing packages.  These packages are not ready
 # for a freeze, but are convenient to have available, so they are left at
 # the "master" version.
-use captSummary master
-use captDST master
+# use captSummary master
+# use captDST master
 
 # Build methods to include.
 document doxygen doxygen -group=documentation ../doc/*.dox
